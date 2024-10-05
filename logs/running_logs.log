@@ -1,0 +1,33 @@
+[2024-10-01 13:30:26,289] - INFO - Welcome to our custom log
+[2024-10-05 19:41:41,498] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-05 19:44:46,831] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-05 19:44:46,833] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-05 19:50:12,428] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-05 19:50:12,430] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-05 19:50:12,430] - INFO - created directory at: artifacts
+[2024-10-05 19:50:12,431] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-05 19:53:56,160] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-05 19:53:56,161] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-05 19:53:56,162] - INFO - created directory at: artifacts
+[2024-10-05 19:53:56,164] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-05 19:56:01,532] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-05 19:56:01,534] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-05 19:56:01,535] - INFO - created directory at: artifacts
+[2024-10-05 19:56:01,536] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-05 19:57:02,526] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-05 19:57:02,528] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-05 19:57:02,529] - INFO - created directory at: artifacts
+[2024-10-05 19:57:02,530] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-05 19:57:02,531] - INFO - Kaggle authentication setup completed.
+[2024-10-05 20:47:57,106] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-05 20:47:57,107] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-05 20:47:57,109] - INFO - created directory at: artifacts
+[2024-10-05 20:47:57,109] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-05 20:47:57,109] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-05 22:54:12,167] - INFO - >>>>> stage Data Ingestion Stage started <<<<<
+[2024-10-05 22:54:12,169] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-05 22:54:12,169] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-05 22:54:12,170] - INFO - created directory at: artifacts
+[2024-10-05 22:54:12,170] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-05 22:54:12,171] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-05 22:55:03,830] - INFO - >>>>> stage  Data Ingestion Stage completed <<<<<
