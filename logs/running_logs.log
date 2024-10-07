@@ -31,3 +31,117 @@
 [2024-10-05 22:54:12,170] - INFO - created directory at: artifacts/data_ingestion
 [2024-10-05 22:54:12,171] - INFO - File already exists of size: ~ 5440432 KB
 [2024-10-05 22:55:03,830] - INFO - >>>>> stage  Data Ingestion Stage completed <<<<<
+[2024-10-05 23:54:05,778] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-05 23:54:05,785] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-05 23:54:05,788] - INFO - created directory at: artifacts
+[2024-10-05 23:57:15,561] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-05 23:57:15,565] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-05 23:57:15,566] - INFO - created directory at: artifacts
+[2024-10-06 00:02:40,667] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-06 00:02:40,667] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-06 00:02:40,679] - INFO - created directory at: artifacts
+[2024-10-06 00:02:40,681] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-06 00:05:26,273] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-06 00:05:26,274] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-06 00:05:26,275] - INFO - created directory at: artifacts
+[2024-10-06 00:05:26,276] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-06 00:07:02,373] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-06 00:07:02,375] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-06 00:07:02,376] - INFO - created directory at: artifacts
+[2024-10-06 00:07:02,376] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-06 00:07:13,723] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-06 00:07:13,727] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-06 00:07:13,728] - INFO - created directory at: artifacts
+[2024-10-06 00:07:13,730] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-06 00:07:36,610] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-06 00:07:36,610] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-06 00:07:36,610] - INFO - created directory at: artifacts
+[2024-10-06 00:07:36,610] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-06 00:07:50,264] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-06 00:07:50,415] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-06 00:24:53,197] - INFO - >>>>> stage Data Ingestion Stage started <<<<<
+[2024-10-06 00:24:53,200] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-06 00:24:53,200] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-06 00:24:53,200] - INFO - created directory at: artifacts
+[2024-10-06 00:24:53,200] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-06 00:24:53,200] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-06 00:25:59,762] - INFO - >>>>> stage  Data Ingestion Stage completed <<<<<
+[2024-10-06 00:25:59,763] - INFO - *******************
+[2024-10-06 00:25:59,763] - INFO - >>>>>> stage Prepare base model started <<<<<<
+[2024-10-06 00:25:59,763] - ERROR - PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "C:\Users\steva\Documents\Projects\data-science\deep-learning-pipeline\main.py", line 20, in <module>
+    prepare_base_model.main()
+TypeError: PrepareBaseModelTrainingPipeline.main() takes 0 positional arguments but 1 was given
+[2024-10-06 00:32:12,047] - INFO - >>>>> stage Data Ingestion Stage started <<<<<
+[2024-10-06 00:32:12,049] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-06 00:32:12,050] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-06 00:32:12,051] - INFO - created directory at: artifacts
+[2024-10-06 00:32:12,051] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-06 00:32:12,052] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-06 00:33:22,472] - INFO - >>>>> stage  Data Ingestion Stage completed <<<<<
+[2024-10-06 00:33:22,472] - INFO - *******************
+[2024-10-06 00:33:22,473] - INFO - >>>>>> stage Prepare base model started <<<<<<
+[2024-10-06 00:33:22,475] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-06 00:33:22,478] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-06 00:33:22,478] - INFO - created directory at: artifacts
+[2024-10-06 00:33:22,479] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-06 00:33:23,025] - INFO - Base model loaded: VGG16
+[2024-10-06 00:33:23,025] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-06 00:33:23,160] - INFO - Base model saved at: artifacts\prepare_base_model\base_model.h5
+[2024-10-06 00:33:23,181] - INFO - Full model prepared and compiled
+[2024-10-06 00:33:23,210] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-06 00:33:23,383] - INFO - Updated model saved at: artifacts\prepare_base_model\base_model_updated.h5
+[2024-10-06 00:33:23,383] - INFO - >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-10-07 10:48:46,580] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 10:48:46,612] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 10:48:46,615] - INFO - created directory at: artifacts
+[2024-10-07 10:48:46,621] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-07 10:48:46,623] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-07 10:52:53,751] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 10:52:53,756] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 10:52:53,756] - INFO - created directory at: artifacts
+[2024-10-07 10:52:53,763] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-07 10:52:53,765] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-07 10:56:36,361] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 10:56:36,367] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 10:56:36,371] - INFO - created directory at: artifacts
+[2024-10-07 10:56:36,372] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-07 10:56:36,374] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-07 10:56:46,433] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 10:56:46,438] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 10:56:46,440] - INFO - created directory at: artifacts
+[2024-10-07 10:56:46,442] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-07 10:56:46,444] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-07 10:56:52,471] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 10:56:52,475] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 10:56:52,477] - INFO - created directory at: artifacts
+[2024-10-07 10:56:52,479] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-07 10:56:52,482] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-07 11:04:15,692] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 11:04:15,696] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 11:04:15,700] - INFO - created directory at: artifacts
+[2024-10-07 11:04:15,701] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-07 11:04:15,704] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-07 11:05:54,717] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 11:05:54,721] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 11:05:54,723] - INFO - created directory at: artifacts
+[2024-10-07 11:05:54,725] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-07 11:05:54,725] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-07 11:10:39,233] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 11:10:39,235] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 11:10:39,236] - INFO - created directory at: artifacts
+[2024-10-07 11:10:39,237] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-07 11:10:39,237] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-07 11:20:19,583] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 11:20:19,588] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 11:20:19,591] - INFO - created directory at: artifacts
+[2024-10-07 11:20:19,593] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-07 11:20:19,595] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-07 11:33:13,352] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 11:33:13,358] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 11:33:13,361] - INFO - created directory at: artifacts
+[2024-10-07 11:33:13,363] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-07 11:33:13,365] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
