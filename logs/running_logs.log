@@ -145,3 +145,438 @@ x==========x
 [2024-10-07 11:33:13,361] - INFO - created directory at: artifacts
 [2024-10-07 11:33:13,363] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
 [2024-10-07 11:33:13,365] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-07 23:50:52,603] - INFO - >>>>> stage Data Ingestion Stage started <<<<<
+[2024-10-07 23:50:52,605] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 23:50:52,605] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 23:50:52,605] - INFO - created directory at: artifacts
+[2024-10-07 23:50:52,605] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-07 23:50:52,611] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-07 23:52:08,852] - INFO - >>>>> stage  Data Ingestion Stage completed <<<<<
+[2024-10-07 23:52:08,854] - INFO - *******************
+[2024-10-07 23:52:08,854] - INFO - >>>>>> stage Prepare base model started <<<<<<
+[2024-10-07 23:52:08,856] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-07 23:52:08,860] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-07 23:52:08,860] - INFO - created directory at: artifacts
+[2024-10-07 23:52:08,862] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-07 23:52:09,635] - INFO - Base model loaded: VGG16
+[2024-10-07 23:52:09,635] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-07 23:52:09,834] - INFO - Base model saved at: artifacts\prepare_base_model\base_model.h5
+[2024-10-07 23:52:09,865] - INFO - Full model prepared and compiled
+[2024-10-07 23:52:09,932] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-07 23:52:10,112] - INFO - Updated model saved at: artifacts\prepare_base_model\base_model_updated.h5
+[2024-10-07 23:52:10,121] - INFO - >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-10-11 11:35:58,517] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-11 11:35:58,520] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-11 11:35:58,520] - INFO - created directory at: artifacts
+[2024-10-11 11:35:58,520] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-11 11:35:58,523] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-11 11:43:35,230] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-11 11:43:35,230] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-11 11:43:35,237] - INFO - created directory at: artifacts
+[2024-10-11 11:43:35,237] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-11 11:43:35,238] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-11 11:43:35,238] - INFO - created directory at: artifacts\training
+[2024-10-11 11:43:35,620] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-11 11:52:36,724] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-11 11:52:36,726] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-11 11:52:36,727] - INFO - created directory at: artifacts
+[2024-10-11 11:52:36,727] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-11 11:52:36,728] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-11 11:52:36,729] - INFO - created directory at: artifacts\training
+[2024-10-11 11:52:36,913] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-11 11:54:52,401] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-11 11:54:52,405] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-11 11:54:52,406] - INFO - created directory at: artifacts
+[2024-10-11 11:54:52,406] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-11 11:54:52,406] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-11 11:54:52,409] - INFO - created directory at: artifacts\training
+[2024-10-11 11:54:52,657] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-11 12:50:47,586] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-11 12:50:47,586] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-11 12:50:47,586] - INFO - created directory at: artifacts
+[2024-10-11 12:50:47,586] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-11 12:50:47,586] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-11 12:50:47,586] - INFO - created directory at: artifacts\training
+[2024-10-11 12:50:47,866] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-11 12:54:09,111] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-11 12:54:09,113] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-11 12:54:09,113] - INFO - created directory at: artifacts
+[2024-10-11 12:54:09,113] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-11 12:54:09,113] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-11 12:54:09,113] - INFO - created directory at: artifacts\training
+[2024-10-11 12:54:09,306] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-11 12:56:31,933] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-11 12:56:31,935] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-11 12:56:31,936] - INFO - created directory at: artifacts
+[2024-10-11 12:56:31,936] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-11 12:56:31,936] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-11 12:56:31,936] - INFO - created directory at: artifacts\training
+[2024-10-11 12:56:48,763] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-11 12:56:48,767] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-11 12:56:48,768] - INFO - created directory at: artifacts
+[2024-10-11 12:56:48,768] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-11 12:56:48,768] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-11 12:56:48,768] - INFO - created directory at: artifacts\training
+[2024-10-11 12:58:22,872] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-11 12:58:22,872] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-11 12:58:22,872] - INFO - created directory at: artifacts
+[2024-10-11 12:58:22,872] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-11 12:58:22,872] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-11 12:58:22,872] - INFO - created directory at: artifacts\training
+[2024-10-11 12:58:23,072] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-14 13:33:17,558] - INFO - >>>>> stage Data Ingestion Stage started <<<<<
+[2024-10-14 13:33:17,561] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-14 13:33:17,563] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-14 13:33:17,563] - INFO - created directory at: artifacts
+[2024-10-14 13:33:17,563] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-14 13:33:17,565] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-14 13:34:02,595] - INFO - >>>>> stage  Data Ingestion Stage completed <<<<<
+[2024-10-14 13:34:02,595] - INFO - *******************
+[2024-10-14 13:34:02,595] - INFO - >>>>>> stage Prepare base model started <<<<<<
+[2024-10-14 13:34:02,601] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-14 13:34:02,601] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-14 13:34:02,601] - INFO - created directory at: artifacts
+[2024-10-14 13:34:02,601] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-14 13:34:03,133] - INFO - Base model loaded: VGG16
+[2024-10-14 13:34:03,133] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-14 13:34:03,259] - INFO - Base model saved at: artifacts\prepare_base_model\base_model.h5
+[2024-10-14 13:34:03,281] - INFO - Full model prepared and compiled
+[2024-10-14 13:34:03,309] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-14 13:34:03,426] - INFO - Updated model saved at: artifacts\prepare_base_model\base_model_updated.h5
+[2024-10-14 13:34:03,426] - INFO - >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-10-14 13:34:03,426] - INFO - =====================
+[2024-10-14 13:34:03,429] - INFO - >>>>>> stage Training started <<<<<<
+[2024-10-14 13:34:03,429] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-14 13:34:03,429] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-14 13:34:03,429] - INFO - created directory at: artifacts
+[2024-10-14 13:34:03,434] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-14 13:34:03,434] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-14 13:34:03,435] - INFO - created directory at: artifacts\training
+[2024-10-14 13:34:03,595] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-15 22:55:48,901] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-15 22:55:48,920] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-15 22:55:48,924] - INFO - created directory at: artifacts
+[2024-10-15 22:58:02,657] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-15 22:58:02,659] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-15 22:58:02,660] - INFO - created directory at: artifacts
+[2024-10-15 23:15:59,967] - INFO - json file saved at: scores.json
+[2024-10-16 09:07:56,972] - INFO - >>>>> stage Data Ingestion Stage started <<<<<
+[2024-10-16 09:07:56,977] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 09:07:56,979] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 09:07:56,979] - INFO - created directory at: artifacts
+[2024-10-16 09:07:56,980] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-16 09:07:56,981] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-16 09:09:08,289] - INFO - >>>>> stage  Data Ingestion Stage completed <<<<<
+[2024-10-16 09:09:08,290] - INFO - *******************
+[2024-10-16 09:09:08,290] - INFO - >>>>>> stage Prepare base model started <<<<<<
+[2024-10-16 09:09:08,294] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 09:09:08,297] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 09:09:08,298] - INFO - created directory at: artifacts
+[2024-10-16 09:09:08,299] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-16 09:09:08,987] - INFO - Base model loaded: VGG16
+[2024-10-16 09:09:08,988] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 09:09:09,194] - INFO - Base model saved at: artifacts\prepare_base_model\base_model.h5
+[2024-10-16 09:09:09,223] - INFO - Full model prepared and compiled
+[2024-10-16 09:09:09,267] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 09:09:09,443] - INFO - Updated model saved at: artifacts\prepare_base_model\base_model_updated.h5
+[2024-10-16 09:09:09,445] - INFO - >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-10-16 09:09:09,445] - INFO - =====================
+[2024-10-16 09:09:09,446] - INFO - >>>>>> stage Training started <<<<<<
+[2024-10-16 09:09:09,449] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 09:09:09,450] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 09:09:09,451] - INFO - created directory at: artifacts
+[2024-10-16 09:09:09,451] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-16 09:09:09,453] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-16 09:09:09,453] - INFO - created directory at: artifacts\training
+[2024-10-16 09:09:09,717] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-16 10:31:27,543] - INFO - >>>>>> stage Training completed <<<<<<
+
+x==========x
+[2024-10-16 10:31:27,545] - INFO - =====================
+[2024-10-16 10:31:27,546] - INFO - >>>>>> stage Evaluation started <<<<<<
+[2024-10-16 10:31:27,561] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 10:31:27,564] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 10:31:27,567] - INFO - created directory at: artifacts
+[2024-10-16 10:31:28,540] - ERROR - Error occurred in stage Evaluation, name 'model' is not defined
+Traceback (most recent call last):
+  File "C:\Users\steva\Documents\Projects\data-science\deep-learning-pipeline\main.py", line 44, in <module>
+    if __name__ == "__main__":
+         ^^^^^^^^^^^^^^^^^
+  File "C:\Users\steva\Documents\Projects\data-science\deep-learning-pipeline\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 16, in main
+    evaluation.evaluation()
+  File "C:\Users\steva\Documents\Projects\data-science\deep-learning-pipeline\src\cnnClassifier\components\evaluation.py", line 45, in evaluation
+    self.score = model.evaluate(self.valid_generator)
+                 ^^^^^
+NameError: name 'model' is not defined. Did you mean: 'self.model'?
+[2024-10-16 10:39:21,154] - INFO - No GPUs detected, using CPU.
+[2024-10-16 10:39:21,155] - INFO - =====================
+[2024-10-16 10:39:21,155] - INFO - >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2024-10-16 10:39:21,160] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 10:39:21,162] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 10:39:21,162] - INFO - created directory at: artifacts
+[2024-10-16 10:39:21,164] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-16 10:39:21,165] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-16 10:40:27,654] - INFO - >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2024-10-16 10:40:27,655] - INFO - =====================
+[2024-10-16 10:40:27,655] - INFO - >>>>>> Stage Prepare Base Model started <<<<<<
+[2024-10-16 10:40:27,660] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 10:40:27,664] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 10:40:27,664] - INFO - created directory at: artifacts
+[2024-10-16 10:40:27,665] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-16 10:40:28,369] - INFO - Base model loaded: VGG16
+[2024-10-16 10:40:28,369] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 10:40:28,572] - INFO - Base model saved at: artifacts\prepare_base_model\base_model.h5
+[2024-10-16 10:40:28,606] - INFO - Full model prepared and compiled
+[2024-10-16 10:40:28,656] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 10:40:28,886] - INFO - Updated model saved at: artifacts\prepare_base_model\base_model_updated.h5
+[2024-10-16 10:40:28,886] - INFO - >>>>>> Stage Prepare Base Model completed <<<<<<
+
+x==========x
+[2024-10-16 10:40:28,888] - INFO - =====================
+[2024-10-16 10:40:28,888] - INFO - >>>>>> Stage Training started <<<<<<
+[2024-10-16 10:40:28,892] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 10:40:28,894] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 10:40:28,895] - INFO - created directory at: artifacts
+[2024-10-16 10:40:28,896] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-16 10:40:28,897] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-16 10:40:28,898] - INFO - created directory at: artifacts\training
+[2024-10-16 10:40:29,192] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-16 11:38:04,314] - INFO - >>>>>> Stage Training completed <<<<<<
+
+x==========x
+[2024-10-16 11:38:04,318] - INFO - =====================
+[2024-10-16 11:38:04,318] - INFO - >>>>>> Stage Evaluation started <<<<<<
+[2024-10-16 11:38:04,324] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 11:38:04,327] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 11:38:04,327] - INFO - created directory at: artifacts
+[2024-10-16 11:54:20,261] - INFO - json file saved at: scores.json
+[2024-10-16 11:54:20,261] - INFO - >>>>>> Stage Evaluation completed <<<<<<
+
+x==========x
+[2024-10-16 14:18:09,709] - INFO - No GPUs detected, using CPU.
+[2024-10-16 14:18:09,710] - INFO - =====================
+[2024-10-16 14:18:09,710] - INFO - >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2024-10-16 14:18:09,712] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 14:18:09,713] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 14:18:09,713] - INFO - created directory at: artifacts
+[2024-10-16 14:18:09,713] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-16 14:18:09,715] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-16 14:18:31,488] - INFO - No GPUs detected, using CPU.
+[2024-10-16 14:18:31,488] - INFO - =====================
+[2024-10-16 14:18:31,488] - INFO - >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2024-10-16 14:18:31,493] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 14:18:31,493] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 14:18:31,493] - INFO - created directory at: artifacts
+[2024-10-16 14:18:31,493] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-16 14:18:31,493] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-16 14:19:07,446] - INFO - >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2024-10-16 14:19:07,447] - INFO - =====================
+[2024-10-16 14:19:07,447] - INFO - >>>>>> Stage Prepare Base Model started <<<<<<
+[2024-10-16 14:19:07,449] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 14:19:07,449] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 14:19:07,451] - INFO - created directory at: artifacts
+[2024-10-16 14:19:07,451] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-16 14:19:07,814] - INFO - Base model loaded: VGG16
+[2024-10-16 14:19:07,814] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 14:19:07,931] - INFO - Base model saved at: artifacts\prepare_base_model\base_model.h5
+[2024-10-16 14:19:07,937] - INFO - Full model prepared and compiled
+[2024-10-16 14:19:07,971] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 14:19:08,104] - INFO - Updated model saved at: artifacts\prepare_base_model\base_model_updated.h5
+[2024-10-16 14:19:08,104] - INFO - >>>>>> Stage Prepare Base Model completed <<<<<<
+
+x==========x
+[2024-10-16 14:19:08,104] - INFO - =====================
+[2024-10-16 14:19:08,104] - INFO - >>>>>> Stage Training started <<<<<<
+[2024-10-16 14:19:08,104] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 14:19:08,104] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 14:19:08,104] - INFO - created directory at: artifacts
+[2024-10-16 14:19:08,125] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-16 14:19:08,125] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-16 14:19:08,126] - INFO - created directory at: artifacts\training
+[2024-10-16 14:19:08,272] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-16 15:17:37,826] - INFO - >>>>>> Stage Training completed <<<<<<
+
+x==========x
+[2024-10-16 15:17:37,831] - INFO - =====================
+[2024-10-16 15:17:37,831] - INFO - >>>>>> Stage Evaluation started <<<<<<
+[2024-10-16 15:17:37,831] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 15:17:37,831] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 15:17:37,831] - INFO - created directory at: artifacts
+[2024-10-16 15:27:58,997] - INFO - json file saved at: scores.json
+[2024-10-16 15:27:58,997] - INFO - >>>>>> Stage Evaluation completed <<<<<<
+
+x==========x
+[2024-10-16 17:17:37,846] - INFO - No GPUs detected, using CPU.
+[2024-10-16 17:17:37,846] - INFO - =====================
+[2024-10-16 17:17:37,846] - INFO - >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2024-10-16 17:17:37,848] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 17:17:37,849] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 17:17:37,850] - INFO - created directory at: artifacts
+[2024-10-16 17:17:37,850] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-16 17:17:37,851] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-16 17:18:10,534] - INFO - >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2024-10-16 17:18:10,534] - INFO - =====================
+[2024-10-16 17:18:10,534] - INFO - >>>>>> Stage Prepare Base Model started <<<<<<
+[2024-10-16 17:18:10,538] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 17:18:10,540] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 17:18:10,540] - INFO - created directory at: artifacts
+[2024-10-16 17:18:10,540] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-16 17:18:10,901] - INFO - Base model loaded: VGG16
+[2024-10-16 17:18:10,901] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 17:18:11,018] - INFO - Base model saved at: artifacts\prepare_base_model\base_model.h5
+[2024-10-16 17:18:11,034] - INFO - Full model prepared and compiled
+[2024-10-16 17:18:11,061] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 17:18:11,164] - INFO - Updated model saved at: artifacts\prepare_base_model\base_model_updated.h5
+[2024-10-16 17:18:11,165] - INFO - >>>>>> Stage Prepare Base Model completed <<<<<<
+
+x==========x
+[2024-10-16 17:18:11,165] - INFO - =====================
+[2024-10-16 17:18:11,165] - INFO - >>>>>> Stage Training started <<<<<<
+[2024-10-16 17:18:11,166] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 17:18:11,168] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 17:18:11,168] - INFO - created directory at: artifacts
+[2024-10-16 17:18:11,168] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-16 17:18:11,168] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-16 17:18:11,170] - INFO - created directory at: artifacts\training
+[2024-10-16 17:18:11,316] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-16 17:19:40,118] - INFO - No GPUs detected, using CPU.
+[2024-10-16 17:19:40,118] - INFO - =====================
+[2024-10-16 17:19:40,118] - INFO - >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2024-10-16 17:19:40,120] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 17:19:40,120] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 17:19:40,121] - INFO - created directory at: artifacts
+[2024-10-16 17:19:40,121] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-16 17:19:40,121] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-16 17:20:18,302] - INFO - >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2024-10-16 17:20:18,302] - INFO - =====================
+[2024-10-16 17:20:18,302] - INFO - >>>>>> Stage Prepare Base Model started <<<<<<
+[2024-10-16 17:20:18,302] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 17:20:18,311] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 17:20:18,311] - INFO - created directory at: artifacts
+[2024-10-16 17:20:18,311] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-16 17:20:18,720] - INFO - Base model loaded: VGG16
+[2024-10-16 17:20:18,720] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 17:20:18,857] - INFO - Base model saved at: artifacts\prepare_base_model\base_model.h5
+[2024-10-16 17:20:18,878] - INFO - Full model prepared and compiled
+[2024-10-16 17:20:18,918] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 17:20:19,025] - INFO - Updated model saved at: artifacts\prepare_base_model\base_model_updated.h5
+[2024-10-16 17:20:19,025] - INFO - >>>>>> Stage Prepare Base Model completed <<<<<<
+
+x==========x
+[2024-10-16 17:20:19,025] - INFO - =====================
+[2024-10-16 17:20:19,030] - INFO - >>>>>> Stage Training started <<<<<<
+[2024-10-16 17:20:19,032] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 17:20:19,032] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 17:20:19,032] - INFO - created directory at: artifacts
+[2024-10-16 17:20:19,032] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-16 17:20:19,032] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-16 17:20:19,035] - INFO - created directory at: artifacts\training
+[2024-10-16 17:20:19,195] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-16 18:48:49,787] - INFO - No GPUs detected, using CPU.
+[2024-10-16 18:48:49,789] - INFO - =====================
+[2024-10-16 18:48:49,789] - INFO - >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2024-10-16 18:48:49,790] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 18:48:49,790] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 18:48:49,790] - INFO - created directory at: artifacts
+[2024-10-16 18:48:49,790] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-16 18:48:49,790] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-16 18:50:18,412] - INFO - No GPUs detected, using CPU.
+[2024-10-16 18:50:18,412] - INFO - =====================
+[2024-10-16 18:50:18,412] - INFO - >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2024-10-16 18:50:18,412] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 18:50:18,412] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 18:50:18,412] - INFO - created directory at: artifacts
+[2024-10-16 18:50:18,412] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-16 18:50:18,412] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-16 23:32:21,032] - INFO - No GPUs detected, using CPU.
+[2024-10-16 23:32:21,032] - INFO - =====================
+[2024-10-16 23:32:21,032] - INFO - >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2024-10-16 23:32:21,038] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 23:32:21,038] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 23:32:21,043] - INFO - created directory at: artifacts
+[2024-10-16 23:32:21,043] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-16 23:32:21,043] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-16 23:33:35,598] - INFO - >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2024-10-16 23:33:35,598] - INFO - =====================
+[2024-10-16 23:33:35,598] - INFO - >>>>>> Stage Prepare Base Model started <<<<<<
+[2024-10-16 23:33:35,604] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 23:33:35,606] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 23:33:35,606] - INFO - created directory at: artifacts
+[2024-10-16 23:33:35,608] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-16 23:33:36,399] - INFO - Base model loaded: VGG16
+[2024-10-16 23:33:36,399] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 23:33:36,612] - INFO - Base model saved at: artifacts\prepare_base_model\base_model.h5
+[2024-10-16 23:33:36,647] - INFO - Full model prepared and compiled
+[2024-10-16 23:33:36,701] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-16 23:33:36,910] - INFO - Updated model saved at: artifacts\prepare_base_model\base_model_updated.h5
+[2024-10-16 23:33:36,914] - INFO - >>>>>> Stage Prepare Base Model completed <<<<<<
+
+x==========x
+[2024-10-16 23:33:36,914] - INFO - =====================
+[2024-10-16 23:33:36,914] - INFO - >>>>>> Stage Training started <<<<<<
+[2024-10-16 23:33:36,918] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-16 23:33:36,923] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-16 23:33:36,923] - INFO - created directory at: artifacts
+[2024-10-16 23:33:36,925] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-16 23:33:36,925] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-16 23:33:36,925] - INFO - created directory at: artifacts\training
+[2024-10-16 23:33:37,234] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-17 08:49:36,747] - INFO - No GPUs detected, using CPU.
+[2024-10-17 08:49:36,748] - INFO - =====================
+[2024-10-17 08:49:36,748] - INFO - >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2024-10-17 08:49:36,750] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-17 08:49:36,751] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-17 08:49:36,751] - INFO - created directory at: artifacts
+[2024-10-17 08:49:36,751] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-17 08:49:36,753] - INFO - File already exists of size: ~ 5440432 KB
+[2024-10-17 08:50:15,966] - INFO - >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2024-10-17 08:50:15,966] - INFO - =====================
+[2024-10-17 08:50:15,966] - INFO - >>>>>> Stage Prepare Base Model started <<<<<<
+[2024-10-17 08:50:15,968] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-17 08:50:15,971] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-17 08:50:15,971] - INFO - created directory at: artifacts
+[2024-10-17 08:50:15,971] - INFO - created directory at: artifacts/prepare_base_model
+[2024-10-17 08:50:33,427] - INFO - Base model loaded: ResNet50
+[2024-10-17 08:50:33,427] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-17 08:50:33,723] - INFO - Base model saved at: artifacts\prepare_base_model\base_model.h5
+[2024-10-17 08:50:33,764] - INFO - Full model prepared and compiled
+[2024-10-17 08:50:34,039] - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[2024-10-17 08:50:34,294] - INFO - Updated model saved at: artifacts\prepare_base_model\base_model_updated.h5
+[2024-10-17 08:50:34,294] - INFO - >>>>>> Stage Prepare Base Model completed <<<<<<
+
+x==========x
+[2024-10-17 08:50:34,295] - INFO - =====================
+[2024-10-17 08:50:34,295] - INFO - >>>>>> Stage Training started <<<<<<
+[2024-10-17 08:50:34,296] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-17 08:50:34,297] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-17 08:50:34,298] - INFO - created directory at: artifacts
+[2024-10-17 08:50:34,298] - INFO - created directory at: artifacts\prepare_callbacks\checkpoint_dir
+[2024-10-17 08:50:34,298] - INFO - created directory at: artifacts\prepare_callbacks\tensorboard_log_dir
+[2024-10-17 08:50:34,299] - INFO - created directory at: artifacts\training
+[2024-10-17 08:50:34,902] - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-10-17 11:48:02,414] - INFO - No GPUs detected, using CPU.
+[2024-10-17 11:48:02,415] - INFO - =====================
+[2024-10-17 11:48:02,415] - INFO - >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2024-10-17 11:48:02,417] - INFO - yaml file: config\config.yaml loaded successfully
+[2024-10-17 11:48:02,419] - INFO - yaml file: params.yaml loaded successfully
+[2024-10-17 11:48:02,419] - INFO - created directory at: artifacts
+[2024-10-17 11:48:02,419] - INFO - created directory at: artifacts/data_ingestion
+[2024-10-17 11:48:02,419] - INFO - File already exists of size: ~ 5440432 KB

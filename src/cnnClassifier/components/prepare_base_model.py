@@ -1,6 +1,6 @@
-import os
 import tensorflow as tf
 from pathlib import Path
+from tensorflow.keras import layers, regularizers, applications
 from cnnClassifier.entity.config_entity import PrepareBaseModelConfig
 from cnnClassifier import logger
 
@@ -11,12 +11,13 @@ class PrepareBaseModel:
         self.full_model = None
 
     def get_base_model(self):
-        self.model = tf.keras.applications.vgg16.VGG16(
+        # Load the base ResNet50 model without the top fully connected layers
+        self.model = applications.ResNet50(
             input_shape=self.config.params_image_size,
             weights=self.config.params_weights,
-            include_top=self.config.params_include_top
+            include_top=False
         )
-        logger.info(f"Base model loaded: VGG16")
+        logger.info(f"Base model loaded: ResNet50")
         self.save_model(path=self.config.base_model_path, model=self.model)
         logger.info(f"Base model saved at: {self.config.base_model_path}")
 
@@ -29,21 +30,21 @@ class PrepareBaseModel:
             for layer in model.layers[:-freeze_till]:
                 layer.trainable = False
 
-        flatten_in = tf.keras.layers.Flatten()(model.output)
-        prediction = tf.keras.layers.Dense(
-            units=classes,
-            activation="softmax"
-        )(flatten_in)
+        # Add custom layers
+        x = layers.GlobalAveragePooling2D()(model.output)
+        x = layers.BatchNormalization()(x)
+        x = layers.Dropout(0.5)(x)
+        x = layers.Dense(256, activation='relu', kernel_regularizer=regularizers.l2(0.001))(x)
+        x = layers.BatchNormalization()(x)
+        x = layers.Dropout(0.5)(x)
+        outputs = layers.Dense(classes, activation="softmax", kernel_regularizer=regularizers.l2(0.001))(x)
 
-        full_model = tf.keras.models.Model(
-            inputs=model.input,
-            outputs=prediction
-        )
+        full_model = tf.keras.models.Model(inputs=model.input, outputs=outputs)
 
         full_model.compile(
-            optimizer=tf.keras.optimizers.SGD(learning_rate=learning_rate),
+            optimizer=tf.keras.optimizers.Adam(learning_rate=learning_rate),
             loss=tf.keras.losses.CategoricalCrossentropy(),
-            metrics=["accuracy"]
+            metrics=['accuracy', tf.keras.metrics.Precision(), tf.keras.metrics.Recall()]
         )
 
         logger.info("Full model prepared and compiled")

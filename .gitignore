@@ -1,3 +1,9 @@
 venv/
 artifacts/
 artifact/
+.git/
+research/
+logs/
+.conda/
+python/
+
